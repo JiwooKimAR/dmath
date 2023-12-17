@@ -3,7 +3,7 @@
 We annotate two expression formats: an expression tree and Python code.
 
 ## Definition of Operators
-To annotate DMath, we introduce 50 operators. Their detailed explanation can be found in Appendix B in our [paper]().
+To annotate DMath, we introduce 50 operators. Their detailed explanation can be found in Appendix B in our [paper](https://aclanthology.org/2023.emnlp-main.927.pdf).
 
 ## Python Code Conversion
 We implement an automatic code generator to convert the expression tree into Python code.

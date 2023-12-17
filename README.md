@@ -1,6 +1,6 @@
 # DMath (Diverse Math Word Problems)
 
-This repository provides DMath (**D**iverse **Math** Word Problems), a collection of 10K high-quality grade school-level math word problems for the paper "[It Ain’t Over: A Multi-aspect Diverse Math Word Problem Dataset]()".
+This repository provides DMath (**D**iverse **Math** Word Problems), a collection of 10K high-quality grade school-level math word problems for the paper "[It Ain’t Over: A Multi-aspect Diverse Math Word Problem Dataset](https://aclanthology.org/2023.emnlp-main.927.pdf)".
 
 ## Details of the dataset
 DMath is a multi-aspect diverse MWP dataset, which has the following key features:
@@ -60,3 +60,28 @@ The figure below shows the accuracy comparison results of MWP models on the DMat
 
 We use `gpt-3.5-turbo-0301` for ChatGPT and `gpt-4-0314` for GPT-4.
 
+## Citation
+If you find this work useful for your research, please cite our paper:
+```
+@inproceedings{kim-etal-2023-aint,
+    title = "It Ain{'}t Over: A Multi-aspect Diverse Math Word Problem Dataset",
+    author = "Kim, Jiwoo  and
+      Kim, Youngbin  and
+      Baek, Ilwoong  and
+      Bak, JinYeong  and
+      Lee, Jongwuk",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.927",
+    doi = "10.18653/v1/2023.emnlp-main.927",
+    pages = "14984--15011",
+    abstract = "The math word problem (MWP) is a complex task that requires natural language understanding and logical reasoning to extract key knowledge from natural language narratives. Previous studies have provided various MWP datasets but lack diversity in problem types, lexical usage patterns, languages, and annotations for intermediate solutions. To address these limitations, we introduce a new MWP dataset, named DMath (Diverse Math Word Problems), offering a wide range of diversity in problem types, lexical usage patterns, languages, and intermediate solutions. The problems are available in English and Korean and include an expression tree and Python code as intermediate solutions. Through extensive experiments, we demonstrate that the DMath dataset provides a new opportunity to evaluate the capability of large language models, i.e., GPT-4 only achieves about 75{\%} accuracy on the DMath dataset.",
+}
+
+```
